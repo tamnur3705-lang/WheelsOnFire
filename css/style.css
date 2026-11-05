@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background-color: #f4f4f4;
+}
+
+.site-header {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.menu {
+    background-color: #b72d2d;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #822020;
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/car.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.banner h2 {
+    font-size: 34px;
+}
+
+.intro, .featured, .about-content {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.intro h2, .featured h2, .about-content h2 {
+    color: #a52626;
+}
+
+.car-card {
+    width: 80%;
+    max-width: 500px;
+    min-height: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+}
+
+.about-content {
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+}
